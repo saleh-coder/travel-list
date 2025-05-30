@@ -1,59 +1,59 @@
+Here’s an updated README reflecting your current state with separate component files and implemented features like sorting, clearing, and derived stats:
+
+```markdown
 # Travel List - React Study Project
 
-This is a simple project to practice React and frontend development.  
-The goal is to build a basic app to list travel items, starting with a static layout and evolving as I learn.
+A simple React app to manage a packing list for travel, created as a learning project to practice React fundamentals and component-based architecture.
 
 ---
 
 ## About the project
 
-- Created using [Create React App](https://create-react-app.dev/)
-- Implements a basic layout with functional React components.
-- Currently in development, with only the initial structure and static components.
-- Meant to understand React organization, JSX, components, and React flow.
-- Not a finished project or ready for production.
+- Built with [Create React App](https://create-react-app.dev/)
+- Modular structure: each component (`Logo`, `Form`, `PackingList`, `Item`, `Stats`, `App`) is in its own file under `/src/components`
+- Features implemented:
+  - Add, toggle, and delete packing items
+  - Sort items by input order, description, or packed status
+  - Clear entire list with user confirmation
+  - Dynamic stats displaying total items, packed count, and packing progress percentage
+- Focus on React Hooks (`useState`), derived state, component reusability, and state lifting
+- Still a learning project, not production-ready
 
 ---
 
-## Current components
+## Components overview
 
-- `Logo` - heading with emojis
-- `Form` - placeholder area for future form
-- `PackingList` - static list placeholder
-- `Stats` - footer with count info placeholder
+- `App` — main app container, manages state and handlers
+- `Logo` — app header with emojis and title
+- `Form` — input form to add new packing items
+- `PackingList` — displays sorted list of items with controls
+- `Item` — individual packing list item with toggle and delete buttons
+- `Stats` — summary footer with packing statistics and dynamic messages
 
 ---
 
-## How to run locally
+## Getting started locally
 
-1. Clone the repository
+1. Clone this repo
 2. Run `npm install` to install dependencies
-3. Run `npm start` to start the development server
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Run `npm start` to launch the development server
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to use the app
 
 ---
 
-## Planned next steps
+## Notes
 
-- Make the list dynamic by adding items through the form
-- Manage state with React Hooks
-- Improve styling with CSS
-- Separate components into individual files
-- Implement features like marking items as packed
+This project is for personal learning and experimentation with React fundamentals and component architecture. Expect frequent updates as I practice and improve.
 
 ---
 
-## Note
+## Resources
 
-This project is my personal learning playground. Don’t be surprised by frequent commits or rapid changes — it’s all part of the study process.
-
----
-
-## Useful resources
-
-- [React Documentation](https://reactjs.org/)
-- [Create React App Docs](https://create-react-app.dev/docs/getting-started/)
+- [React Official Docs](https://reactjs.org/)
+- [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
+- [JavaScript ES6 Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 ---
 
-Thanks for visiting! 😊
+Thanks for checking out this project! 😊
+```
