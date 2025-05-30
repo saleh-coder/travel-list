@@ -1,6 +1,4 @@
-Here’s an updated README reflecting your current state with separate component files and implemented features like sorting, clearing, and derived stats:
-
-```markdown
+![App Screenshot](./assets/screenshot.png)
 # Travel List - React Study Project
 
 A simple React app to manage a packing list for travel, created as a learning project to practice React fundamentals and component-based architecture.
@@ -55,5 +53,5 @@ This project is for personal learning and experimentation with React fundamental
 
 ---
 
-Thanks for checking out this project! 😊
+Feel free to reach out with feedback! 😊
 ```
